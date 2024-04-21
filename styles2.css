@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-1: hsl(25, 97%, 53%);
+  --color-2: hsl(0, 0%, 100%);
+  --color-3: hsl(217, 12%, 63%);
+  --color-4: hsl(216, 12%, 54%);
+  --color-5: hsl(213, 19%, 18%);
+  --color-6: hsl(216, 12%, 8%);
+  --color-7: hsl(213, 21%, 10%);
+  --color-8: hsl(214, 14%, 23%);
+  --color-9: hsl(25, 87%, 44%);
+}
+
+body {
+  background-color: var(--color-6);
+  font-family: "Overpass";
+  color: var(--color-2);
+  /* text-align: center; */
+}

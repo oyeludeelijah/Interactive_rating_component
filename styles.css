@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-1: hsl(25, 97%, 53%);
+  --color-2: hsl(0, 0%, 100%);
+  --color-3: hsl(217, 12%, 63%);
+  --color-4: hsl(216, 12%, 54%);
+  --color-5: hsl(213, 19%, 18%);
+  --color-6: hsl(216, 12%, 8%);
+  --color-7: hsl(213, 21%, 10%);
+  --color-8: hsl(214, 14%, 23%);
+  --color-9: hsl(25, 87%, 44%);
+}
+
+body {
+  background-color: var(--color-6);
+  font-family: "Overpass", sans-serif;
+  color: var(--color-2);
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-1 {
+  padding: 1.5rem;
+  width: 20.3rem;
+  margin: 0 auto;
+  margin-top: 30vh;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, var(--color-5), var(--color-7));
+}
+
+.container-2 {
+  padding: 1.5rem;
+  padding-top: 2.3rem;
+  padding-bottom: 2rem;
+  width: 20.3rem;
+  margin: 0 auto;
+  margin-top: 30vh;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, var(--color-5), var(--color-7));
+}
+
+.star {
+  background-color: var(--color-8);
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12.5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star img {
+  width: 0.8rem;
+}
+
+.header {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.text {
+  color: var(--color-4);
+  font-size: 0.8rem;
+  margin-bottom: 1.4rem;
+  line-height: 1.5;
+}
+
+.btns {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns button {
+  background-color: var(--color-8);
+  color: var(--color-3);
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 12.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.submit {
+  background-color: var(--color-1);
+  border: none;
+  color: var(--color-2);
+  font-size: 0.6rem;
+  height: 2.3rem;
+  width: 100%;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: var(--color-2);
+  color: var(--color-1);
+}
+
+.btns button:hover {
+  background-color: var(--color-1);
+  color: var(--color-2);
+}
+
+.active {
+  background-color: var(--color-4) !important;
+  color: var(--color-2) !important;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.start img {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.result {
+  color: var(--color-9);
+  background-color: var(--color-8);
+  border-radius: 20px;
+  width: fit-content;
+  /* display: none; */
+  padding: 0.3rem 0.8rem;
+  font-size: 0.8rem;
+}
+.result-number {
+  padding: 4px;
+}
+
+h2 {
+  margin-bottom: 0.7rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+p {
+  color: var(--color-4);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  text-align: center;
+}
