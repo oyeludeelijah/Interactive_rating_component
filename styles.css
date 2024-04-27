@@ -27,6 +27,9 @@ body {
   font-family: "Overpass", sans-serif;
   color: var(--color-2);
   display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .hidden {
@@ -34,31 +37,25 @@ body {
 }
 
 .container-1 {
-  padding: 1.5rem;
-  width: 20.3rem;
-  margin: 0 auto;
-  margin-top: 30vh;
+  padding: 2.5rem;
+  width: fit-content;
   border-radius: 20px;
   background: linear-gradient(to bottom, var(--color-5), var(--color-7));
 }
 
 .container-2 {
-  padding: 1.5rem;
-  padding-top: 2.3rem;
-  padding-bottom: 2rem;
-  width: 20.3rem;
-  margin: 0 auto;
-  margin-top: 30vh;
+  padding: 2.5rem;
+  width: 27.4rem;
   border-radius: 20px;
   background: linear-gradient(to bottom, var(--color-5), var(--color-7));
 }
 
 .star {
   background-color: var(--color-8);
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 12.5px;
+  width: 3.4rem;
+  height: 3.4rem;
+  margin-bottom: 2.1rem;
+  border-radius: 17px;
 
   display: flex;
   justify-content: center;
@@ -66,35 +63,36 @@ body {
 }
 
 .star img {
-  width: 0.8rem;
+  width: 1.2rem;
 }
 
 .header {
   margin-bottom: 0.8rem;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 .text {
-  color: var(--color-4);
-  font-size: 0.8rem;
+  color: var(--color-3);
+  font-size: 1rem;
   margin-bottom: 1.4rem;
   line-height: 1.5;
 }
 
 .btns {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
+  gap: 1.4rem;
 }
 
 .btns button {
   background-color: var(--color-8);
   color: var(--color-3);
+  font-size: 1rem;
   border: none;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 12.5rem;
-  font-size: 0.8rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 17rem;
   cursor: pointer;
 }
 
@@ -102,8 +100,10 @@ body {
   background-color: var(--color-1);
   border: none;
   color: var(--color-2);
-  font-size: 0.6rem;
-  height: 2.3rem;
+  font-size: 1rem;
+
+  padding: 1rem 0;
+  /* height: 2.3rem; */
   width: 100%;
   border-radius: 20px;
   letter-spacing: 2px;
@@ -130,12 +130,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .start img {
-  width: 10rem;
-  margin-bottom: 2rem;
+  width: 11rem;
+  margin-bottom: 2.5rem;
 }
 
 .result {
@@ -145,21 +145,25 @@ body {
   width: fit-content;
   /* display: none; */
   padding: 0.3rem 0.8rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  /* margin-bottom: 2rem; */
 }
 .result-number {
-  padding: 4px;
+  /* padding: 4px; */
 }
 
 h2 {
   margin-bottom: 0.7rem;
-  font-size: 1.3rem;
-  text-align: center;
+  font-size: 2rem;
 }
 
 p {
   color: var(--color-4);
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.5;
+}
+
+.container-2 h2,
+.container-2 p {
   text-align: center;
 }
